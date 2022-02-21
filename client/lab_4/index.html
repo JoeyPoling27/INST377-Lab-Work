@@ -1,19 +1,78 @@
-YOUR NAME Lab 4: HTML Forms
+<html lang="en">
+  <head class="page">
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <title>Lab 4: JS Carousel</title>
+    <link rel="stylesheet" , href="styles.css" />
+    <h1>JOSEPH POLING Lab 4: Javascript 1: Browser Events & Selectors</h1>
+  </head>
+  <body>
+    <div>
+      <div class="menu-container section">
+        <div class="menu">
+          <div class="date">2/13/22</div>
+          <div class="database-setup">
+            <a href="data.html"> Database Demos </a>
+          </div>
+          <div class="main-page"><a href="index.html">Main Page</a></div>
+        </div>
+      </div>
+      <div class="header-container">
+        <div class="header">
+          <div class="group-project">Group Project Link (no site yet)</div>
+          <div class="logo">
+            <img
+              src="images/awesome-logo.svg"
+              style="max-width: 100%"
+              alt="Awesome Logo"
+            />
+          </div>
+          <div class="github">
+            <div>
+              <a href="https://github.com/JoeyPoling27/INST377-Lab-Work">
+                Github Link
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
 
-today's date
-Database Demos
-Main Page
+     
+        <div class="photo-grid-container">
+          <div class="photo-grid-item">
+            <div class="carousel_item carousel_item--visible">
+              <img src="images/one.svg" alt="image_1" />
+            </div>
+            <div class="carousel_item">
+              <img src="images/two.svg" alt="image_2" />
+            </div>
+            <div class="carousel_item">
+              <img src="images/three.svg" alt="image_3" />
+            </div>
+            <div class="carousel_item">
+              <img src="images/four.svg" alt="image_4" />
+            </div>
+            <div class="carousel_item">
+              <img src="images/five.svg" alt="image_5" />
+            </div>
+          </div>
+        </div>
 
-Group Project Link (no site yet)
-Awesome Logo
-Github Link
+        <div class="carousel_actions">
+            <button id="carousel_button_prev">Prev</button>
+            <button id="carousel_button_next">Next</button>
+          </div>
 
-image_1
-image_2
-image_3
-image_4
-image_5
+      <div class="footer">
+        <div class="footer-item footer-one">footer item 1</div>
+        <div class="footer-item footer-two">footer item 2</div>
+        <div class="footer-item footer-three">footer item 3</div>
+      </div>
+    </div>
 
-footer item 1
-footer item 2
-footer item 3
+    <script src="script.js"></script>
+  </body>
+</html>
