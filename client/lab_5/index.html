@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet", href="styles.css"/>
+    <title>Lab 5</title>
+</head>
+<body class="container">
+    <div class="columns">
+    <h1 class="formHeader">Joseph Poling Lab 5</h1>
+    <div class="formContent">
+        <form action='https://data.princegeorgescountymd.gov/resource/umjn-t2iz.json' method='get'>
+            <label for='first-name'>First Name</label>
+            <input id='first-name' name='first-name' type='text'/>
+            <label for='food-preference'>Food Preference</label>
+            <input id='food-preference' name='food-preference' type='text'/>
+            <fieldset>
+                <legend>Veggie or Vegan</legend>
+                <input id='talk-type-1'
+                       name='talk-type'
+                       type='radio'
+                       value='main-stage' />
+                <label for='talk-type-1' class='radio-label'>Yes</label>
+                <input id='talk-type-2'
+                       name='talk-type'
+                       type='radio'
+                       value='workshop'
+                       checked />
+                <label for='talk-type-2' class='radio-label'>No</label>
+              </fieldset>
+              <div>
+                <button>Submit</button>
+              </div>
+        </form>      
+    </div>
+    <div class="otherContent">
+        This is going to be something in two weeks.
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
