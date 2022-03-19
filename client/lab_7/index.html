@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet", href="styles.css"/>
+    <title>Lab 7</title>
+</head>
+<body class="container">
+    <div class="columns">
+    <h1 class="formHeader">Joseph Poling Lab 7</h1>
+    <div class="formContent">
+        <form class="main_form">
+            <label for='first-name'>Restaurant Name</label>
+            <input id='first-name' name='first-name' type='text'/>
+            <label for='food-preference'>Location</label>
+            <input id='food-preference' name='food-preference' type='text'/>
+            <fieldset>
+                <legend>Veggie or Vegan</legend>
+                <input id='talk-type-1'
+                       name='talk-type'
+                       type='radio'
+                       value='main-stage' />
+                <label for='talk-type-1' class='radio-label'>Yes</label>
+                <input id='talk-type-2'
+                       name='talk-type'
+                       type='radio'
+                       value='workshop'
+                       checked />
+                <label for='talk-type-2' class='radio-label'>No</label>
+              </fieldset>
+              <div>
+                <button class="button submit_button">Submit</button>
+              </div>
+        </form>      
+    </div>
+    <div class="otherContent">
+        <h2>Restaurant List</h2>
+        <ul class="resto-list"></ul>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
