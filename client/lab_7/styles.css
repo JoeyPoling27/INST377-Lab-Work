@@ -72,3 +72,8 @@
     position: relative;
     left: 100px;
   }
+
+  .resto-list {
+    list-style-type: none;
+    text-align: justify;
+  }
