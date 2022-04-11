@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 8</title>
+    <link rel="stylesheet", href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"/>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+
+    <link rel="stylesheet", href="styles.css"/>
+</head>
+<body class="container">
+    <div class="columns">
+    <h1 class="formHeader">Joseph Poling Lab 8</h1>
+    <div class="formContent">
+        <form class="main_form">
+            <label for='resto_name'>Restaurant Name</label>
+            <input id='resto_name' name='resto_name' type='text'/>
+            <label for='resto_city'>City Name</label>
+            <input id='resto_city' name='resto_city' type='text'/>
+              <div>
+                <button class="button submit_button">Change Restaurants</button>
+                <button class="button" id="refresh_list">Refresh List</button>
+              </div>
+        </form>      
+    </div>
+    <div class="otherContent">
+        <div id="map"></div>
+        <h2>Restaurant List</h2>
+        <ul class="resto-list"></ul>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

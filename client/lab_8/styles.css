@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’,
+      ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
+    background-color: darkslategray;
+  }
+
+  #map { 
+    height: 350px; 
+  }
+  
+  h1 {
+    background-color: #4da2a2;
+  }
+  
+  button {
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #00ff22;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 40px;
+    cursor: pointer;
+    position: relative;
+    top: 50px
+  }
+  
+  /* Page Layout */
+  .columns {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .wrapper {
+    display: flex;
+  }
+  .container {
+    max-width: 960px;
+    margin-top: 25px;
+  }
+  
+  .formHeader{
+    width: 100%;
+    display: inline-block;
+    background-color: rgba(0,139, 139,0.8);
+    padding: 10px 15px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .formContent {
+    height: 600px;
+    width: 275px;
+    background-color: #F6F7F8;
+    border-radius: 3px;
+    margin: 40px 0;
+    padding: 50px;
+    flex-wrap: wrap;
+    position: relative;
+    left: 25px;
+  }
+  
+  .otherContent {
+    background-color: #F6F7F8;
+    margin: 40px 0;
+    padding: 50px;
+    position: relative;
+    left: 100px;
+    width: 500px;
+  }
+
+  .resto-list {
+    list-style-type: none;
+    text-align: justify;
+  }
